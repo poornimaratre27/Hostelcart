@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'League Spartan',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#f5f7fa,#e4ecf7);
+    min-height:100vh;
+}
+
+/* HEADER */
+
+header{
+    background:#088178;
+    padding:20px 0;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.nav-container{
+    width:90%;
+    margin:auto;
+}
+
+.logo{
+    text-decoration:none;
+    color:white;
+    font-size:2rem;
+    font-weight:700;
+}
+
+.logo span{
+    color:#ffd43b;
+}
+
+/* MAIN BOX */
+
+.about-container{
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+}
+
+/* TOP SECTION */
+
+.about-hero{
+    background:white;
+    border-radius:25px;
+    padding:50px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.about-hero h1{
+    font-size:3.2rem;
+    color:#088178;
+    margin-bottom:25px;
+}
+
+.about-hero p{
+    font-size:1.1rem;
+    line-height:1.8;
+    color:#555;
+}
+
+/* MISSION */
+
+.about-mission{
+    margin-top:40px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.06);
+}
+
+.about-mission h2{
+    color:#088178;
+    margin-bottom:15px;
+}
+
+.about-mission p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* STATS */
+
+.stats-section{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.stat-box{
+    background:#088178;
+    color:white;
+    padding:30px;
+    text-align:center;
+    border-radius:18px;
+    transition:.4s;
+}
+
+.stat-box:hover{
+    transform:translateY(-10px);
+}
+
+.stat-box h2{
+    font-size:2.3rem;
+    margin-bottom:10px;
+}
+
+/* FEATURES */
+
+.about-title{
+    text-align:center;
+    margin:60px 0 30px;
+    font-size:2.5rem;
+    color:#222;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.about-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.07);
+    transition:.4s;
+}
+
+.about-card:hover{
+    transform:translateY(-10px);
+}
+
+.about-card h3{
+    color:#088178;
+    margin:15px 0;
+}
+
+.about-card p{
+    color:#666;
+    line-height:1.7;
+}
+
+.about-card i{
+    font-size:40px;
+    color:#088178;
+}
+
+/* FOOTER BOX */
+
+.about-footer{
+    margin-top:50px;
+    background:white;
+    padding:35px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.06);
+}
+
+.about-footer h2{
+    color:#088178;
+    margin-bottom:15px;
+}
+
+.about-footer p{
+    color:#666;
+    line-height:1.8;
+}
+
+@media(max-width:768px){
+
+.about-hero{
+padding:30px;
+}
+
+.about-hero h1{
+font-size:2.2rem;
+}
+
+.about-title{
+font-size:2rem;
+}
+
+}
